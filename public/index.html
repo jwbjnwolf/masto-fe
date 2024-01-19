@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <title>Masto-FE standalone</title>
+    <link rel="manifest" type="applicaton/manifest+json" href="/manifest.json" />
+
+    <meta name="theme-color" content="#282c37" />
+    <meta content='/getting-started' name='initialPath' />
+
+    <link rel='preload' as='script' href='/packs/js/locales/glitch/en-json.js' />
+    <link rel='preload' as='script' href='/packs/js/flavours/glitch/async/getting_started.js' />
+    <link rel='preload' as='script' href='/packs/js/flavours/glitch/async/compose.js' />
+    <link rel='preload' as='script' href='/packs/js/flavours/glitch/async/home_timeline.js' />
+    <link rel='preload' as='script' href='/packs/js/flavours/glitch/async/notifications.js' />
+    <script id='initial-state' type='application/json'>{}</script>
+
+    <script src="/verify-state.js"></script>
+    <script src="/packs/js/common.js"></script>
+    <script src="/packs/js/core/common.js"></script>
+    <link rel="stylesheet" media="all" href="/packs/css/core/common.css" />
+
+    <script src="/packs/js/flavours/glitch/common.js"></script>
+    <link rel="stylesheet" media="all" href="/packs/css/flavours/glitch/common.css" />
+
+    <script src="/packs/js/flavours/glitch/home.js"></script>
+</head>
+<body class='app-body no-reduce-motion system-font'>
+<div class='app-holder' data-props='{&quot;locale&quot;:&quot;en&quot;}' id='mastodon'>
+</div>
+</body>
+</html>

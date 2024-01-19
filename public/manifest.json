@@ -1,0 +1,12 @@
+{
+  "background_color": "#191b22",
+  "categories": ["social"],
+  "description": "Masto-FE standalone",
+  "display": "standalone",
+  "name": "Masto-FE standalone",
+  "serviceworker": {
+    "src": "/sw.js"
+  },
+  "start_url": "/getting-started",
+  "theme_color": "#282c37"
+}

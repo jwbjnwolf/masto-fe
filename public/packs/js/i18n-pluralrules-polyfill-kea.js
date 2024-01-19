@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[173],{329:function(a,l){Intl.PluralRules&&"function"==typeof Intl.PluralRules.__addLocaleData&&Intl.PluralRules.__addLocaleData({data:{categories:{cardinal:["other"],ordinal:["other"]},fn:function(a,l){return"other"}},locale:"kea"})}}]);
+//# sourceMappingURL=i18n-pluralrules-polyfill-kea.js.map
