@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="robots" content="noindex, nofollow" />
     <title>Login | Masto-FE standalone</title>
+    <link href="/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="/login.css" type="text/css">
     <script src="/auth.js"></script>
 </head>
+
 <body>
-<input type="text" id="instance" placeholder="yourinstance.tld">
-<button onclick="auth()" id="btn">Log in</button>
-<span id="message"></span>
+    <div class="container-alt">
+        <div class="logo-container"></div>
+        <img class="logo" height="200" width="200" src="/images/mascot_hello.svg"
+            alt="Cartoony drawing of a mastodon representing as a mascot for the Mastodon software.">
+        <div class="form-container">
+            <form name="login form">
+                <h1 class="title">Log into an instance</h1>
+                <p class="lead">
+                    Log into your instance below by inserting your instance domain.
+                    You can login with any GoToSocial, IceShrimp or Mastodon instance.
+                </p>
+                <div class="fields-group">
+                    <input name="instance" aria-label="instance" id="instance" type="text"
+                        placeholder="yourinstance.tld"><br>
+                </div>
+                <div class="actions">
+                    <button type="submit" onclick="auth()" id="btn">Log in</button><br>
+                    <span id="message"></span>
+                </div>
+            </form>
+
+            <footer>
+                <span class="software">Masto-FE standalone</span><br><br>
+                <a class="source" href="https://github.com/jwbjnwolf/masto-fe-standalone">Source code</a>
+            </footer>
+        </div>
+    </div>
 </body>
+
 </html>
