@@ -97,5 +97,6 @@ async function getToken(code, domain) {
 
 function setMessage(message, disabled = true) {
   document.getElementById('message').textContent = message;
-  document.getElementById('btn').disabled = disabled;
+  document.getElementById('message').style.opacity = "1";
+  document.getElementById('btn').disabled = disabled; 
 }
