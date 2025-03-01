@@ -1,2 +1,2 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[411],{567:function(a,n){Intl.PluralRules&&"function"==typeof Intl.PluralRules.__addLocaleData&&Intl.PluralRules.__addLocaleData({data:{categories:{cardinal:["one","other"],ordinal:["other"]},fn:function(a,n){return n?"other":0==a||1==a?"one":"other"}},locale:"wa"})}}]);
+(window.webpackJsonp=window.webpackJsonp||[]).push([[411],{564:function(a,n){Intl.PluralRules&&"function"==typeof Intl.PluralRules.__addLocaleData&&Intl.PluralRules.__addLocaleData({data:{categories:{cardinal:["one","other"],ordinal:["other"]},fn:function(a,n){return n?"other":0==a||1==a?"one":"other"}},locale:"wa"})}}]);
 //# sourceMappingURL=i18n-pluralrules-polyfill-wa.js.map

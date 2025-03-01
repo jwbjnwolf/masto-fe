@@ -1,7 +1,8 @@
 # Masto-fe standalone, but it's compiled.
 
-Compiled from: https://github.com/jwbjnwolf/masto-fe-standalone.
-Forked from: https://iceshrimp.dev/iceshrimp/masto-fe-standalone.
+- Compiled from: https://github.com/jwbjnwolf/masto-fe-standalone.
+- Forked from: https://iceshrimp.dev/iceshrimp/masto-fe-standalone.
+- Sloth fork: https://codeberg.org/superseriousbusiness/masto-fe-standalone.
 
 ### Why?
 

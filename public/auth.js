@@ -19,16 +19,25 @@ async function ready() {
 
 async function auth() {
   setMessage('Please wait');
+
   const instance = document.getElementById('instance').value;
-  const domain = instance.match(/(?:https?:\/\/)?(.*)/)[1];
+  const matches = instance.match(/((?:http|https):\/\/)?(.*)/);
+
+  const protocol = matches[1];
+  if (protocol) {
+    localStorage.setItem('protocol', protocol);
+  }
+  
+  const domain = matches[2];
   if (!domain) {
     setMessage('Invalid instance', false);
     return;
   }
-
   localStorage.setItem('domain', domain);
 
-  // We need to run this every time in cases like Iceshrimp, where the client id/secret aren't reusable (yet) because they contain use-once session information
+  // We need to run this every time in cases like Iceshrimp,
+  // where the client id/secret aren't reusable (yet) because
+  // they contain use-once session information.
   await registerApp(domain);
 
   authorize(domain);
@@ -37,9 +46,11 @@ async function auth() {
 async function registerApp(domain) {
   setMessage('Registering app');
 
-  const appsUrl = `https://${domain}/api/v1/apps`;
+  const protocol = localStorage.getItem(`protocol`) ?? `https://`;
+  const appsUrl = `${protocol}${domain}/api/v1/apps`;
   const formData = new FormData();
   formData.append('client_name', 'Masto-FE standalone');
+  formData.append('website', 'https://github.com/jwbjnwolf/masto-fe-standalone');
   formData.append('redirect_uris', document.location.origin + document.location.pathname);
   formData.append('scopes', 'read write follow push');
 
@@ -61,13 +72,15 @@ async function registerApp(domain) {
 function authorize(domain) {
   setMessage('Authorizing');
   const clientId = localStorage.getItem(`client_id`);
-  document.location.href = `https://${domain}/oauth/authorize?response_type=code&client_id=${clientId}&redirect_uri=${document.location.origin + document.location.pathname}&scope=read+write+follow+push`;
+  const protocol = localStorage.getItem(`protocol`) ?? `https://`;
+  document.location.href = `${protocol}${domain}/oauth/authorize?response_type=code&client_id=${clientId}&redirect_uri=${document.location.origin + document.location.pathname}&scope=read+write+follow+push`;
 }
 
 async function getToken(code, domain) {
   setMessage('Getting token');
 
-  const tokenUrl = `https://${domain}/oauth/token`;
+  const protocol = localStorage.getItem(`protocol`) ?? `https://`;
+  const tokenUrl = `${protocol}${domain}/oauth/token`;
   const clientId = localStorage.getItem(`client_id`);
   const clientSecret = localStorage.getItem(`client_secret`);
 
