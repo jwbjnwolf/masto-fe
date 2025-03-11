@@ -17,19 +17,19 @@
   },
   "common.js": {
     "src": "/packs/js/common.js",
-    "integrity": "sha256-FwOs/XhWJeI2NMBb1bJYk/Vb+08w/58WRqX+S3IVVtA="
+    "integrity": "sha256-vcVBwYJ6HLXtq1iVVVKC6dyt71cGgO1jvJz7UMP5TR0="
   },
   "common.js.map": {
     "src": "/packs/js/common.js.map",
-    "integrity": "sha256-pDVNtSnhVUMuxAhELF5kokuMGqkyyFwZkXTY9tswsDA="
+    "integrity": "sha256-hNIJBKzgIM21cFA9KaPbQQEgFFJQyZYc28FmQwNBjjE="
   },
   "containers/media_container.js": {
     "src": "/packs/js/containers/media_container.js",
-    "integrity": "sha256-2+632DbLXN5oV8dnj+sj6zDebV5WxuJnUx3jw7JjP6w="
+    "integrity": "sha256-mvBskqvQVsOM8u2FitCDAHhg7re3G14iO+lHzr2cIeo="
   },
   "containers/media_container.js.map": {
     "src": "/packs/js/containers/media_container.js.map",
-    "integrity": "sha256-bBnp2N9g84tzIAXX54nuDuHMKqk2UVSTnOSAtJZ18n8="
+    "integrity": "sha256-aDOp/Ub861KMO4J3jJ4AAvSqOiMvvdpTZmhcIPlbLbY="
   },
   "core/admin.js": {
     "src": "/packs/js/core/admin.js",
@@ -5021,11 +5021,11 @@
   },
   "flavours/glitch/home.js": {
     "src": "/packs/js/flavours/glitch/home.js",
-    "integrity": "sha256-wwv5juxyAayEbTvEO7GMBx0a7WA3VrXmSMgcex/eQqw="
+    "integrity": "sha256-kEYOg5y4PHFlaeWE9cIZcn2V9pY20ufhpeG+klkbBHg="
   },
   "flavours/glitch/home.js.map": {
     "src": "/packs/js/flavours/glitch/home.js.map",
-    "integrity": "sha256-URvgJOjbqps7jfvORNa+dDog4NtMEqavjHhJ9txEBPs="
+    "integrity": "sha256-xohU1/tkrHD0rwkmcwmhE60ex3QT1VjzRcWYNSb4AeU="
   },
   "flavours/glitch/public.js": {
     "src": "/packs/js/flavours/glitch/public.js",
@@ -5045,11 +5045,11 @@
   },
   "flavours/glitch/share.js": {
     "src": "/packs/js/flavours/glitch/share.js",
-    "integrity": "sha256-0/kkwDcgAMt9HA/eLdKkTx3kl+NL8c9a/yBorcMInE8="
+    "integrity": "sha256-vf3D8S00QDTGkNuAD2K8XGVrXiXI+EH4mQcFQByq030="
   },
   "flavours/glitch/share.js.map": {
     "src": "/packs/js/flavours/glitch/share.js.map",
-    "integrity": "sha256-wxyKJizqQk2NKPoo9xiUMoIqymlYICqNpd7GPlAL2YE="
+    "integrity": "sha256-BHkj6SpyMoBjxiwyMFt4d8bXcixHM8zXLCWhSNZ7k4w="
   },
   "flavours/glitch/sign_up.js": {
     "src": "/packs/js/flavours/glitch/sign_up.js",
