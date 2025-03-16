@@ -1,2 +1,2 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[771],{1932:function(n,e,r){"use strict";r.r(e),r.d(e,"default",(function(){return c}));var t=r(0),o=r(1),s=r(662);class c extends o.PureComponent{render(){const{children:n}=this.props;return Object(t.a)(s.a,{},void 0,n)}}}}]);
+(window.webpackJsonp=window.webpackJsonp||[]).push([[771],{1707:function(n,e,r){"use strict";r.r(e),r.d(e,"default",(function(){return c}));var t=r(0),o=r(2),s=r(131);class c extends o.PureComponent{render(){const{children:n}=this.props;return Object(t.a)(s.a,{},void 0,n)}}}}]);
 //# sourceMappingURL=771.js.map

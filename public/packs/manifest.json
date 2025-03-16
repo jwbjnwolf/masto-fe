@@ -9,7 +9,7 @@
   },
   "base_polyfills.js": {
     "src": "/packs/js/base_polyfills.js",
-    "integrity": "sha256-vwvG4XbXrySkBBIA78ttTnBEGZnL1TpTQ7ffBozmDGs="
+    "integrity": "sha256-byvDwLU8pDCHryRD6RbGRRKnpYtQMjp1TpynIWRX6Os="
   },
   "base_polyfills.js.map": {
     "src": "/packs/js/base_polyfills.js.map",
@@ -17,15 +17,15 @@
   },
   "common.js": {
     "src": "/packs/js/common.js",
-    "integrity": "sha256-h3IYyNNIG/nDP87ScmxMRZjzICI7bldixTT0z1GCuX0="
+    "integrity": "sha256-sIvgLT5JGnR1A1tbUdSedAnGgnowhT89uIR4vUTkhAU="
   },
   "common.js.map": {
     "src": "/packs/js/common.js.map",
-    "integrity": "sha256-/wifFvWri4q6TsKJ9ac4INu7clq9OnM5rQB1VzXtIeU="
+    "integrity": "sha256-CV3qniHif5Zi4R7Y2bPKK3JE8v1LK6mk0YrA4o4r1ng="
   },
   "containers/media_container.js": {
     "src": "/packs/js/containers/media_container.js",
-    "integrity": "sha256-2S5HvWtTMHPNtXrR5VnjZxlmcDH+MYjLjJj0BHmOGGg="
+    "integrity": "sha256-p7txikhQEV7A3w7geFvTLftv09zBQhSvjf8NqMhLgcM="
   },
   "containers/media_container.js.map": {
     "src": "/packs/js/containers/media_container.js.map",
@@ -41,7 +41,7 @@
   },
   "core/auth.js": {
     "src": "/packs/js/core/auth.js",
-    "integrity": "sha256-4X+x/QXGIeR2SKRxWzZ2CESRCDasjsOH7jZa1jW2TOc="
+    "integrity": "sha256-+xTdwmO39BH2jgXsL6VQAqF2cbqt/oa/1Axvik67kx4="
   },
   "core/auth.js.map": {
     "src": "/packs/js/core/auth.js.map",
@@ -81,7 +81,7 @@
   },
   "core/mailer.js": {
     "src": "/packs/js/core/mailer.js",
-    "integrity": "sha256-fsGyWjXQqoPBGIWWbngsCFf4K/jTL6GMUqghAnbeR+0="
+    "integrity": "sha256-gzALuZWmK+Ca7F+skeJAs+HUZN32W5cqRLFFLRC35ig="
   },
   "core/mailer.js.map": {
     "src": "/packs/js/core/mailer.js.map",
@@ -105,7 +105,7 @@
   },
   "emoji_picker.js": {
     "src": "/packs/js/emoji_picker.js",
-    "integrity": "sha256-4t7wjRpi37DBm0Wa9SFGFKlfk3XK48u11vaaAKu4YSc="
+    "integrity": "sha256-4gc0Ln45dr0jO8Zm4P7zZ/7Ln3QEea9GCqgrDP8Y/UI="
   },
   "emoji_picker.js.map": {
     "src": "/packs/js/emoji_picker.js.map",
@@ -4270,6 +4270,60 @@
         ]
       }
     },
+    "skins/glitch/swipe/light": {
+      "assets": {
+        "js": [
+          "/packs/js/common.js",
+          "/packs/js/skins/glitch/swipe/light.js"
+        ],
+        "js.map": [
+          "/packs/js/common.js.map",
+          "/packs/js/skins/glitch/swipe/light.js.map"
+        ],
+        "css": [
+          "/packs/css/skins/glitch/swipe/light.css"
+        ],
+        "css.map": [
+          "/packs/css/skins/glitch/swipe/light.css.map"
+        ]
+      }
+    },
+    "skins/glitch/swipe/dark": {
+      "assets": {
+        "js": [
+          "/packs/js/common.js",
+          "/packs/js/skins/glitch/swipe/dark.js"
+        ],
+        "js.map": [
+          "/packs/js/common.js.map",
+          "/packs/js/skins/glitch/swipe/dark.js.map"
+        ],
+        "css": [
+          "/packs/css/skins/glitch/swipe/dark.css"
+        ],
+        "css.map": [
+          "/packs/css/skins/glitch/swipe/dark.css.map"
+        ]
+      }
+    },
+    "skins/glitch/swipe/contrast": {
+      "assets": {
+        "js": [
+          "/packs/js/common.js",
+          "/packs/js/skins/glitch/swipe/contrast.js"
+        ],
+        "js.map": [
+          "/packs/js/common.js.map",
+          "/packs/js/skins/glitch/swipe/contrast.js.map"
+        ],
+        "css": [
+          "/packs/css/skins/glitch/swipe/contrast.css"
+        ],
+        "css.map": [
+          "/packs/css/skins/glitch/swipe/contrast.css.map"
+        ]
+      }
+    },
     "skins/glitch/mastodon-light/common": {
       "assets": {
         "js": [
@@ -4309,7 +4363,7 @@
   },
   "extra_polyfills.js": {
     "src": "/packs/js/extra_polyfills.js",
-    "integrity": "sha256-Mr26ed1FIe1m/A6UtEQ06kvfHbtLjgRXSWrcnF2XJto="
+    "integrity": "sha256-cOcpg2sqFIx3A34My4Qm2aamlfStwZvhEjsUTWe8Q5U="
   },
   "extra_polyfills.js.map": {
     "src": "/packs/js/extra_polyfills.js.map",
@@ -4325,7 +4379,7 @@
   },
   "features/account_gallery.js": {
     "src": "/packs/js/features/account_gallery.js",
-    "integrity": "sha256-UD73OgmYEE9PwjJyNlOPri8E6/NVS42lXlZkPXrgvRY="
+    "integrity": "sha256-pVy9ygucVuAO+AzwyeZILcsfoLc0ZH6KJOTNtC3q0Kg="
   },
   "features/account_gallery.js.map": {
     "src": "/packs/js/features/account_gallery.js.map",
@@ -4333,7 +4387,7 @@
   },
   "features/account_timeline.js": {
     "src": "/packs/js/features/account_timeline.js",
-    "integrity": "sha256-vTMyFF7b1YmgAnA9tZYFAtWRtWFMpMSKvSXKQARlbNY="
+    "integrity": "sha256-BjBlzMgu8DIo/nX4KE6KqRtmZou7wp5cOaYWey1b9ro="
   },
   "features/account_timeline.js.map": {
     "src": "/packs/js/features/account_timeline.js.map",
@@ -4341,7 +4395,7 @@
   },
   "features/blocks.js": {
     "src": "/packs/js/features/blocks.js",
-    "integrity": "sha256-KuTp/FEVd5MyZ+SwsIF+eo7ckC9sgGmofVIxcskfj28="
+    "integrity": "sha256-ynUR5wmzx1lAg5m48YgNNE/iUb19ZNQnzgzePqc4LrE="
   },
   "features/blocks.js.map": {
     "src": "/packs/js/features/blocks.js.map",
@@ -4349,7 +4403,7 @@
   },
   "features/bookmarked_statuses.js": {
     "src": "/packs/js/features/bookmarked_statuses.js",
-    "integrity": "sha256-HnH0WSx9lqE507KikGETJ3UBRylzYtPhi+8/GLJ8T6g="
+    "integrity": "sha256-SdwBw4RzRfuuuhvXFS4QRmFMbh/A9YYHw7IldpEaq6g="
   },
   "features/bookmarked_statuses.js.map": {
     "src": "/packs/js/features/bookmarked_statuses.js.map",
@@ -4357,7 +4411,7 @@
   },
   "features/community_timeline.js": {
     "src": "/packs/js/features/community_timeline.js",
-    "integrity": "sha256-kcgmevbWG+G8Xrq055Q8RbgvCCLc8LRx1Nti+YxtVHM="
+    "integrity": "sha256-YZbyleZDYER7cHAFz1hI5bnTX5CC25jrgjeaJn/5AJQ="
   },
   "features/community_timeline.js.map": {
     "src": "/packs/js/features/community_timeline.js.map",
@@ -4365,7 +4419,7 @@
   },
   "features/compose.js": {
     "src": "/packs/js/features/compose.js",
-    "integrity": "sha256-xK5cU9adOVlVoWM36Be3YpSpYkONDT+h3+XHNwc3RIY="
+    "integrity": "sha256-M0TRXyw7VCFhqdUd8KGYOC3eXaoab6VgeiDYNG00ydU="
   },
   "features/compose.js.map": {
     "src": "/packs/js/features/compose.js.map",
@@ -4381,7 +4435,7 @@
   },
   "features/directory.js": {
     "src": "/packs/js/features/directory.js",
-    "integrity": "sha256-IgAWVTnVchAxFZwszvk5z85uww8DbeCdXCJZcu++k3Y="
+    "integrity": "sha256-AEbhrXJVdR702lz03KYyYy74KJ/BvkGS59+XVRV/IH4="
   },
   "features/directory.js.map": {
     "src": "/packs/js/features/directory.js.map",
@@ -4389,7 +4443,7 @@
   },
   "features/domain_blocks.js": {
     "src": "/packs/js/features/domain_blocks.js",
-    "integrity": "sha256-jbqSPhSK+rVfwX8sT4k4d9bsfTuNFLiHkp/3Tgk4ZW4="
+    "integrity": "sha256-jOhhSoPKGxzHBYIU2GMcLl8wJOw7VnAVCy20aFmjxFY="
   },
   "features/domain_blocks.js.map": {
     "src": "/packs/js/features/domain_blocks.js.map",
@@ -4397,7 +4451,7 @@
   },
   "features/explore.js": {
     "src": "/packs/js/features/explore.js",
-    "integrity": "sha256-1OGswescDD1F/sCOvSK8UGtdTEDWEkkHKjLLhyh3gZQ="
+    "integrity": "sha256-mJjwSJ1HajstX4l4iYaFEF32kWjSiKN/QtYY7xIDIKQ="
   },
   "features/explore.js.map": {
     "src": "/packs/js/features/explore.js.map",
@@ -4405,7 +4459,7 @@
   },
   "features/favourited_statuses.js": {
     "src": "/packs/js/features/favourited_statuses.js",
-    "integrity": "sha256-3e3FjMpA86hWHg3w9Hj1E9UYcEIE65yorWOS1STsxlk="
+    "integrity": "sha256-ZVTatZoWca/A/xXxoPHVdz5t/aiWMPFdbCV1KYxfkm0="
   },
   "features/favourited_statuses.js.map": {
     "src": "/packs/js/features/favourited_statuses.js.map",
@@ -4413,7 +4467,7 @@
   },
   "features/favourites.js": {
     "src": "/packs/js/features/favourites.js",
-    "integrity": "sha256-xHmaynen63ofYtYcQisM1perSgZFizpC1zevQCDHb+Q="
+    "integrity": "sha256-jsGNuoXZaZlECcrVNyWJcwmjnJvxHKkVGk2weRba2Gc="
   },
   "features/favourites.js.map": {
     "src": "/packs/js/features/favourites.js.map",
@@ -4421,7 +4475,7 @@
   },
   "features/firehose.js": {
     "src": "/packs/js/features/firehose.js",
-    "integrity": "sha256-QRCFBmSAcyxyPioiVi3kKkmEHMhNbHFPv4ICLUAW4Qo="
+    "integrity": "sha256-AibgIaUUh6Wf9aHshzE2D7g8jLpC0dlsOljPUS6jQS4="
   },
   "features/firehose.js.map": {
     "src": "/packs/js/features/firehose.js.map",
@@ -4429,7 +4483,7 @@
   },
   "features/follow_requests.js": {
     "src": "/packs/js/features/follow_requests.js",
-    "integrity": "sha256-cX+j74EhFWlbQ48pxnUoThPtKAm3NwZ+DIusAwtQTd4="
+    "integrity": "sha256-FhmqPOl2WHcXal94M+nrsvQRkRb+RD084PwRPjqBpk8="
   },
   "features/follow_requests.js.map": {
     "src": "/packs/js/features/follow_requests.js.map",
@@ -4437,7 +4491,7 @@
   },
   "features/followed_tags.js": {
     "src": "/packs/js/features/followed_tags.js",
-    "integrity": "sha256-Qb0DRjwCsbUvm2Amb4KLkp3VpkyZbNZWECus1h3wge8="
+    "integrity": "sha256-/YHLa2uSecwmCYPWeV6YOTypnoheLYmI13xeA+966VI="
   },
   "features/followed_tags.js.map": {
     "src": "/packs/js/features/followed_tags.js.map",
@@ -4445,7 +4499,7 @@
   },
   "features/followers.js": {
     "src": "/packs/js/features/followers.js",
-    "integrity": "sha256-BaZKRT4VZJBYRWXDKIa7jIAjALMDvlJnAFhJPSID3Lw="
+    "integrity": "sha256-h7fASoscyrvfR0p/0Qyhq/WCdwanKbyzgA0fNDuiuwc="
   },
   "features/followers.js.map": {
     "src": "/packs/js/features/followers.js.map",
@@ -4453,7 +4507,7 @@
   },
   "features/following.js": {
     "src": "/packs/js/features/following.js",
-    "integrity": "sha256-Eohwxa29TiCxD/iirWQei5uE8JWbup5Rv+HGT+EBAdo="
+    "integrity": "sha256-LVeTyeXbG0O3w5FkfjcTJcOgGUnvQfAl5jUm5r9eDFg="
   },
   "features/following.js.map": {
     "src": "/packs/js/features/following.js.map",
@@ -4461,7 +4515,7 @@
   },
   "features/getting_started.js": {
     "src": "/packs/js/features/getting_started.js",
-    "integrity": "sha256-QmGf4IlnYkOlC9bcWZxh81L42hVW6fgc2XGJyzf+rr0="
+    "integrity": "sha256-hBChyc3OpG1XLnTcaz09y4vUGUHDwnvKRuYtlXT/z/o="
   },
   "features/getting_started.js.map": {
     "src": "/packs/js/features/getting_started.js.map",
@@ -4477,7 +4531,7 @@
   },
   "features/glitch/async/directory.js": {
     "src": "/packs/js/features/glitch/async/directory.js",
-    "integrity": "sha256-qMRkg87CtMHNGh93rxaUCQ9++I/G6o1q9TwC2upNUL0="
+    "integrity": "sha256-acAQX6z5INitAknZXvx1YO4iGTv9ojfbPVlus2nGMHU="
   },
   "features/glitch/async/directory.js.map": {
     "src": "/packs/js/features/glitch/async/directory.js.map",
@@ -4485,7 +4539,7 @@
   },
   "features/glitch/async/follow_recommendations.js": {
     "src": "/packs/js/features/glitch/async/follow_recommendations.js",
-    "integrity": "sha256-2ax8bs4ACy2rhfacLLL1GIVqh0vSwKq5JlcZgX4SJX0="
+    "integrity": "sha256-pL7DYas6NT336X1Szcz9IiJte27n8fZAZaaOjs1xzno="
   },
   "features/glitch/async/follow_recommendations.js.map": {
     "src": "/packs/js/features/glitch/async/follow_recommendations.js.map",
@@ -4493,7 +4547,7 @@
   },
   "features/glitch/async/list_adder.js": {
     "src": "/packs/js/features/glitch/async/list_adder.js",
-    "integrity": "sha256-Xl/BRLGw0vKEwJ+7AlgOo/NPmIESUus5Cyy4+AKxbTM="
+    "integrity": "sha256-NOdczsqscMFpIIY7JwFCnSc4kOA1a1AesELgJ2mqINk="
   },
   "features/glitch/async/list_adder.js.map": {
     "src": "/packs/js/features/glitch/async/list_adder.js.map",
@@ -4509,7 +4563,7 @@
   },
   "features/hashtag_timeline.js": {
     "src": "/packs/js/features/hashtag_timeline.js",
-    "integrity": "sha256-ttXvSzBNhcx/Ag2PTCnxlXIuHJvZt/iAskN+/CmcNZc="
+    "integrity": "sha256-yhFIaCa+F5HrftmmtDIWqsQL4zgLiCrxhmHdXGTX2hk="
   },
   "features/hashtag_timeline.js.map": {
     "src": "/packs/js/features/hashtag_timeline.js.map",
@@ -4517,7 +4571,7 @@
   },
   "features/home_timeline.js": {
     "src": "/packs/js/features/home_timeline.js",
-    "integrity": "sha256-sA51UPDTuukzH4Xiil9ALf475Fs7oTMnL7ckyOQXjys="
+    "integrity": "sha256-SagR4o+mtoPINn0lBy7KYKzPfb9RFIRERp70+GovzHg="
   },
   "features/home_timeline.js.map": {
     "src": "/packs/js/features/home_timeline.js.map",
@@ -4533,7 +4587,7 @@
   },
   "features/list_adder.js": {
     "src": "/packs/js/features/list_adder.js",
-    "integrity": "sha256-VsnjVZVsDmcRF4t0EYkQQ1nuiP2nK6z4y/TeGM54c7w="
+    "integrity": "sha256-ZDrOZ7CovQZ5RXay7udSj5eBvxdl7iiO0CTebwtCCxQ="
   },
   "features/list_adder.js.map": {
     "src": "/packs/js/features/list_adder.js.map",
@@ -4549,7 +4603,7 @@
   },
   "features/list_timeline.js": {
     "src": "/packs/js/features/list_timeline.js",
-    "integrity": "sha256-RTMNza6/C4dyDhqyFnRKkPqTf1/itlnooYVbveEeuQM="
+    "integrity": "sha256-zQxmiRJnzc9E7ZXcL5TnArCGMq8xGFlrnsbcKUNsrFw="
   },
   "features/list_timeline.js.map": {
     "src": "/packs/js/features/list_timeline.js.map",
@@ -4557,7 +4611,7 @@
   },
   "features/lists.js": {
     "src": "/packs/js/features/lists.js",
-    "integrity": "sha256-ks5YL7qgKK3LlQvYF++7rCgXCM5gOutN6lXObgNvSqg="
+    "integrity": "sha256-V99H3XNPiRynlQsZMBUQqR3loB6F18MmLj/KjO9aTLA="
   },
   "features/lists.js.map": {
     "src": "/packs/js/features/lists.js.map",
@@ -4565,7 +4619,7 @@
   },
   "features/mutes.js": {
     "src": "/packs/js/features/mutes.js",
-    "integrity": "sha256-2rQl0cpJYGFvEWmBh31KVplJndMc6naxbNN8SCmSBpw="
+    "integrity": "sha256-kcHp3ZaX1LGNoVmnolyV1ciQ/jcgMvbqUl5PywmgDUU="
   },
   "features/mutes.js.map": {
     "src": "/packs/js/features/mutes.js.map",
@@ -4573,7 +4627,7 @@
   },
   "features/notifications.js": {
     "src": "/packs/js/features/notifications.js",
-    "integrity": "sha256-mqmb24gER7uNypluzOAI820sHlViWuOuJ7lmN3xIt4g="
+    "integrity": "sha256-qtOxr0Kr+vbIo7kLqJiyjrVEncKUpJ+NWtdEqhGo0QQ="
   },
   "features/notifications.js.map": {
     "src": "/packs/js/features/notifications.js.map",
@@ -4581,7 +4635,7 @@
   },
   "features/onboarding.js": {
     "src": "/packs/js/features/onboarding.js",
-    "integrity": "sha256-/QLXAxkz+7j8e6gHw+eUku5NtYt31ZPEP1nD77SRveE="
+    "integrity": "sha256-bEC+lwaGzsaqh9Q3EP+MnT3lftpzaj5mScodTLYaoak="
   },
   "features/onboarding.js.map": {
     "src": "/packs/js/features/onboarding.js.map",
@@ -4589,7 +4643,7 @@
   },
   "features/pinned_statuses.js": {
     "src": "/packs/js/features/pinned_statuses.js",
-    "integrity": "sha256-gk4tSlSaoFAcIyIwj9uXecM9I5J4ZAZesKQFp6N+j0c="
+    "integrity": "sha256-ZBvQFagY4sN6g5YHLKWY95Q34Cu4EYdu94bBhMRTov8="
   },
   "features/pinned_statuses.js.map": {
     "src": "/packs/js/features/pinned_statuses.js.map",
@@ -4605,7 +4659,7 @@
   },
   "features/public_timeline.js": {
     "src": "/packs/js/features/public_timeline.js",
-    "integrity": "sha256-AQ8OLD5sDdfWt7hzUAqqYBS7Vgy3cZTnT7nBALT/cy0="
+    "integrity": "sha256-OlG7Fde16HZMyRErHsOuc1deMj28lMLYbeAm0bSiPf4="
   },
   "features/public_timeline.js.map": {
     "src": "/packs/js/features/public_timeline.js.map",
@@ -4613,7 +4667,7 @@
   },
   "features/reblogs.js": {
     "src": "/packs/js/features/reblogs.js",
-    "integrity": "sha256-A8iJ6tJPP9SndzUZzmtrQNk77hgYLKq9ahG4WJ4EgNM="
+    "integrity": "sha256-hGz4+YzqbYzYA/3rQ2t25Tk1Dqyd8DGjl2qBUp2ua94="
   },
   "features/reblogs.js.map": {
     "src": "/packs/js/features/reblogs.js.map",
@@ -4621,7 +4675,7 @@
   },
   "features/status.js": {
     "src": "/packs/js/features/status.js",
-    "integrity": "sha256-fsDIb/1rP/Qp5NLuwIqEmxWxhIsfXvl2O9y0C5/lNL8="
+    "integrity": "sha256-uxlj3Dw7DRZ4cpXCQIqs8N/NFKC2ti3nLOxkaNVQDlg="
   },
   "features/status.js.map": {
     "src": "/packs/js/features/status.js.map",
@@ -4629,7 +4683,7 @@
   },
   "flavours/glitch/admin.js": {
     "src": "/packs/js/flavours/glitch/admin.js",
-    "integrity": "sha256-/SrVD1nteyLEabq7ZhVyNU9/fh7yAq5aZrIeocpJl2Q="
+    "integrity": "sha256-Nw4PYEL0c3s1j6x5Ll5Fz1W/pcTldq1hsonxFUOyqZ8="
   },
   "flavours/glitch/admin.js.map": {
     "src": "/packs/js/flavours/glitch/admin.js.map",
@@ -4637,7 +4691,7 @@
   },
   "flavours/glitch/async/account_gallery.js": {
     "src": "/packs/js/flavours/glitch/async/account_gallery.js",
-    "integrity": "sha256-Pz7Qn0Spj9lrbSQSihSAuLq1ThhinCImpB7rNGrMN84="
+    "integrity": "sha256-omAo1WGD6wyaCGaTdRcZCyL8iducTBJRL9A/AA1s1xM="
   },
   "flavours/glitch/async/account_gallery.js.map": {
     "src": "/packs/js/flavours/glitch/async/account_gallery.js.map",
@@ -4645,7 +4699,7 @@
   },
   "flavours/glitch/async/account_timeline.js": {
     "src": "/packs/js/flavours/glitch/async/account_timeline.js",
-    "integrity": "sha256-NhS0z0X2JK364OqLDKTusd1E8pCjLSjxoaF0ik3COag="
+    "integrity": "sha256-NTDpVswuSJ8Cqaaucdrt+Wr3pPm3bc3Kc2XfgFHzVqg="
   },
   "flavours/glitch/async/account_timeline.js.map": {
     "src": "/packs/js/flavours/glitch/async/account_timeline.js.map",
@@ -4661,7 +4715,7 @@
   },
   "flavours/glitch/async/blocks.js": {
     "src": "/packs/js/flavours/glitch/async/blocks.js",
-    "integrity": "sha256-QI2sBCXi1p68JR2JivspMvAIq8mV4ZKWvliKPkEeHGo="
+    "integrity": "sha256-Zbzmw2KPNSgXtLFpPI7P45uEvClEx2qREiG6c07BKFs="
   },
   "flavours/glitch/async/blocks.js.map": {
     "src": "/packs/js/flavours/glitch/async/blocks.js.map",
@@ -4669,7 +4723,7 @@
   },
   "flavours/glitch/async/bookmarked_statuses.js": {
     "src": "/packs/js/flavours/glitch/async/bookmarked_statuses.js",
-    "integrity": "sha256-fil6drccvysVYZdRAuHWamD21x5YVFTM1aLt5Icr0Mc="
+    "integrity": "sha256-7ENwcAQDE1XAnZ8BxjRHgs1sn3A7NtGQtIXHa9PUL+Y="
   },
   "flavours/glitch/async/bookmarked_statuses.js.map": {
     "src": "/packs/js/flavours/glitch/async/bookmarked_statuses.js.map",
@@ -4677,7 +4731,7 @@
   },
   "flavours/glitch/async/community_timeline.js": {
     "src": "/packs/js/flavours/glitch/async/community_timeline.js",
-    "integrity": "sha256-CNTsRfPjb1MDS4YaNqdlzjeg4X8x9XIY20Jk9kmAT08="
+    "integrity": "sha256-672ztAhm+AmGli+GULrhkKFR7qSUd9WokjuSjJb6miQ="
   },
   "flavours/glitch/async/community_timeline.js.map": {
     "src": "/packs/js/flavours/glitch/async/community_timeline.js.map",
@@ -4685,7 +4739,7 @@
   },
   "flavours/glitch/async/compare_history_modal.js": {
     "src": "/packs/js/flavours/glitch/async/compare_history_modal.js",
-    "integrity": "sha256-PLTpDwbkZIOgF72GgzhTQUbdx++mRjCzMX/9lt/qh14="
+    "integrity": "sha256-vwdlbmKqFApHpfTmYV1XAPkyCd2ExjYEeUHdVkLfMUk="
   },
   "flavours/glitch/async/compare_history_modal.js.map": {
     "src": "/packs/js/flavours/glitch/async/compare_history_modal.js.map",
@@ -4693,7 +4747,7 @@
   },
   "flavours/glitch/async/compose.js": {
     "src": "/packs/js/flavours/glitch/async/compose.js",
-    "integrity": "sha256-ixdixWjNHu5fShbmrC9V9CALAdiIslA7MgLYwrerVBA="
+    "integrity": "sha256-Dk/XBhzngtxaGKtEsiuoRzH25F29WmIQ/VktZF/XYZQ="
   },
   "flavours/glitch/async/compose.js.map": {
     "src": "/packs/js/flavours/glitch/async/compose.js.map",
@@ -4701,7 +4755,7 @@
   },
   "flavours/glitch/async/direct_timeline.js": {
     "src": "/packs/js/flavours/glitch/async/direct_timeline.js",
-    "integrity": "sha256-vJUU2HgKvOigNDUj3EK8Fg8M+0+M8mfLIBPSdavdoVY="
+    "integrity": "sha256-f1WmmmQHFzA45e9yMUBy8ZeF8eyw+puPrA4Cz06QPHQ="
   },
   "flavours/glitch/async/direct_timeline.js.map": {
     "src": "/packs/js/flavours/glitch/async/direct_timeline.js.map",
@@ -4709,7 +4763,7 @@
   },
   "flavours/glitch/async/domain_blocks.js": {
     "src": "/packs/js/flavours/glitch/async/domain_blocks.js",
-    "integrity": "sha256-5GBcZDvIx0ukuTA1rxAPcFkde025Wle+v0ChP3AzFtY="
+    "integrity": "sha256-njZVJByjTyMjXiRJlhZ6MeU4zBt23lr4faJL8S05s7s="
   },
   "flavours/glitch/async/domain_blocks.js.map": {
     "src": "/packs/js/flavours/glitch/async/domain_blocks.js.map",
@@ -4725,7 +4779,7 @@
   },
   "flavours/glitch/async/emoji_picker.js": {
     "src": "/packs/js/flavours/glitch/async/emoji_picker.js",
-    "integrity": "sha256-BpDcMPkk5T1Mpfg4rrjQIEl7flVLXqpkC19XT4RMXnc="
+    "integrity": "sha256-iN1tW9qoTVXlHAipU6mqaMvSrP1iPpWpPXI5ZMa5e7Q="
   },
   "flavours/glitch/async/emoji_picker.js.map": {
     "src": "/packs/js/flavours/glitch/async/emoji_picker.js.map",
@@ -4733,7 +4787,7 @@
   },
   "flavours/glitch/async/explore.js": {
     "src": "/packs/js/flavours/glitch/async/explore.js",
-    "integrity": "sha256-SvwFxPHqcevSKVMdu2l6IFDqUKYENMDeRhs2q2gQm+Q="
+    "integrity": "sha256-mtLuu28CP0I6V3VxiRiTX5+ZAGNR5XqVS1DgGrXi12E="
   },
   "flavours/glitch/async/explore.js.map": {
     "src": "/packs/js/flavours/glitch/async/explore.js.map",
@@ -4741,7 +4795,7 @@
   },
   "flavours/glitch/async/favourited_statuses.js": {
     "src": "/packs/js/flavours/glitch/async/favourited_statuses.js",
-    "integrity": "sha256-TAzz8b1BpRrtqg6Y98XKE0fi+OqfIwiBLZC4QWfvADA="
+    "integrity": "sha256-JO6WmzpV17yvIOD9kEg07upHh1rlveI3T03K7qhIQzM="
   },
   "flavours/glitch/async/favourited_statuses.js.map": {
     "src": "/packs/js/flavours/glitch/async/favourited_statuses.js.map",
@@ -4749,7 +4803,7 @@
   },
   "flavours/glitch/async/favourites.js": {
     "src": "/packs/js/flavours/glitch/async/favourites.js",
-    "integrity": "sha256-V1O67cqRMbI29++sYMYeGm2fkUs56n3tgbbZhnuIp/o="
+    "integrity": "sha256-bbk4b7tIm+yBtjQPE7nywllWIO0egCAElWgLDSJF2yU="
   },
   "flavours/glitch/async/favourites.js.map": {
     "src": "/packs/js/flavours/glitch/async/favourites.js.map",
@@ -4765,7 +4819,7 @@
   },
   "flavours/glitch/async/firehose.js": {
     "src": "/packs/js/flavours/glitch/async/firehose.js",
-    "integrity": "sha256-BK7Qu99iiprp29Nydyz2Hwm/WhWDb6iw5dqf5tUZsWU="
+    "integrity": "sha256-pWkIcJL9uu7ueeVlbYXtcEOLheuz3IlgbE9oCqJq5Pg="
   },
   "flavours/glitch/async/firehose.js.map": {
     "src": "/packs/js/flavours/glitch/async/firehose.js.map",
@@ -4773,7 +4827,7 @@
   },
   "flavours/glitch/async/follow_requests.js": {
     "src": "/packs/js/flavours/glitch/async/follow_requests.js",
-    "integrity": "sha256-yCE7GsWkBp7galdRzaFrduIljhTxFiwZE6CuOEvyvgw="
+    "integrity": "sha256-MvTXFSwJ4V+Kw0IaLAxfXdt7ko1+gMkbXNJRuAHYfbU="
   },
   "flavours/glitch/async/follow_requests.js.map": {
     "src": "/packs/js/flavours/glitch/async/follow_requests.js.map",
@@ -4781,7 +4835,7 @@
   },
   "flavours/glitch/async/followed_tags.js": {
     "src": "/packs/js/flavours/glitch/async/followed_tags.js",
-    "integrity": "sha256-pJOtrnrLOOanQ3TiJI7oUioRz/GA77aAO26NQOEVia8="
+    "integrity": "sha256-65AVQypSw1Cgnfq2B5a9Q9dmNDpdH5J4M+a8XU6tmn8="
   },
   "flavours/glitch/async/followed_tags.js.map": {
     "src": "/packs/js/flavours/glitch/async/followed_tags.js.map",
@@ -4789,7 +4843,7 @@
   },
   "flavours/glitch/async/followers.js": {
     "src": "/packs/js/flavours/glitch/async/followers.js",
-    "integrity": "sha256-eaUIe27fBoKDP3BYgOIQs0TGhTRRojGK40AjFs/66Xw="
+    "integrity": "sha256-U4QbhUdxpa/uYFt4cPPPqJiPYrc1Z1+JCBgknt4+x4w="
   },
   "flavours/glitch/async/followers.js.map": {
     "src": "/packs/js/flavours/glitch/async/followers.js.map",
@@ -4797,7 +4851,7 @@
   },
   "flavours/glitch/async/following.js": {
     "src": "/packs/js/flavours/glitch/async/following.js",
-    "integrity": "sha256-VaJvmYK2/cr/ZqPWYr0G/9lFmTqXCkrePvPYVHi5UHI="
+    "integrity": "sha256-VpmF9B/UAW+d/zyQRqveDS0am1lk8ZykkWgtjgy23A8="
   },
   "flavours/glitch/async/following.js.map": {
     "src": "/packs/js/flavours/glitch/async/following.js.map",
@@ -4805,7 +4859,7 @@
   },
   "flavours/glitch/async/getting_started.js": {
     "src": "/packs/js/flavours/glitch/async/getting_started.js",
-    "integrity": "sha256-v8KKAswHsdPBcbcZQSjpx8FGUSTsNOD/PR9KgwggdNM="
+    "integrity": "sha256-NDWlrzrjfBK2ECmGjoRmgTmuR4V/EsApKgcomMGtDak="
   },
   "flavours/glitch/async/getting_started.js.map": {
     "src": "/packs/js/flavours/glitch/async/getting_started.js.map",
@@ -4813,7 +4867,7 @@
   },
   "flavours/glitch/async/getting_started_misc.js": {
     "src": "/packs/js/flavours/glitch/async/getting_started_misc.js",
-    "integrity": "sha256-SNzXR6rfCxisCrd5Drmj3jsEVG1d1b2VbZXnVqWdeG8="
+    "integrity": "sha256-o9aoeZN/9iHvxKhCJbscbLe2FsEHmF/YwYI490RygmQ="
   },
   "flavours/glitch/async/getting_started_misc.js.map": {
     "src": "/packs/js/flavours/glitch/async/getting_started_misc.js.map",
@@ -4821,7 +4875,7 @@
   },
   "flavours/glitch/async/hashtag_timeline.js": {
     "src": "/packs/js/flavours/glitch/async/hashtag_timeline.js",
-    "integrity": "sha256-DFKM3As3DndiJF3iFMPBzv3Tp/+WUKiHgnDHXO7avt0="
+    "integrity": "sha256-e8m7ZWK+92V6/0Tcb/AaLmdS+UQQa7jwd25frk8sYYs="
   },
   "flavours/glitch/async/hashtag_timeline.js.map": {
     "src": "/packs/js/flavours/glitch/async/hashtag_timeline.js.map",
@@ -4829,7 +4883,7 @@
   },
   "flavours/glitch/async/home_timeline.js": {
     "src": "/packs/js/flavours/glitch/async/home_timeline.js",
-    "integrity": "sha256-1bNMO3kJaqZq1orqx1xbNRL4JHvbiuOLG9bnFv2UkGQ="
+    "integrity": "sha256-EoZVddapT6eaXoJtSP8ap/UG6HZRqcOO8QSZjSxdgpw="
   },
   "flavours/glitch/async/home_timeline.js.map": {
     "src": "/packs/js/flavours/glitch/async/home_timeline.js.map",
@@ -4845,7 +4899,7 @@
   },
   "flavours/glitch/async/list_editor.js": {
     "src": "/packs/js/flavours/glitch/async/list_editor.js",
-    "integrity": "sha256-2TVgNgnTYyd8VINgovI0jPtsdlG9ClZks2KHavO8F8Y="
+    "integrity": "sha256-37zMsw8AvJHERgO5BBTZ9zCslcfEFDAKXPJ5NuG7Tos="
   },
   "flavours/glitch/async/list_editor.js.map": {
     "src": "/packs/js/flavours/glitch/async/list_editor.js.map",
@@ -4853,7 +4907,7 @@
   },
   "flavours/glitch/async/list_timeline.js": {
     "src": "/packs/js/flavours/glitch/async/list_timeline.js",
-    "integrity": "sha256-xqXGBlZ+HWfUVZZW0/rIFrZ4TVn8zYGuFfeXJIcFGVY="
+    "integrity": "sha256-7ckbi58B8/y1argFs8eb6GYU3Beab3CaR4ryjhXWros="
   },
   "flavours/glitch/async/list_timeline.js.map": {
     "src": "/packs/js/flavours/glitch/async/list_timeline.js.map",
@@ -4861,7 +4915,7 @@
   },
   "flavours/glitch/async/lists.js": {
     "src": "/packs/js/flavours/glitch/async/lists.js",
-    "integrity": "sha256-wqEXIsuVozejJpME4iw/AcazVOCU7SPLBhU1S2y2AwE="
+    "integrity": "sha256-99qMhIPh6oh3MDbrSkqtq35wGURIJGWjj8kBv4ogD2E="
   },
   "flavours/glitch/async/lists.js.map": {
     "src": "/packs/js/flavours/glitch/async/lists.js.map",
@@ -4877,7 +4931,7 @@
   },
   "flavours/glitch/async/modals/interaction_modal.js": {
     "src": "/packs/js/flavours/glitch/async/modals/interaction_modal.js",
-    "integrity": "sha256-idglRclAj6vrCCzemuw/SzI7SZCXtvK/DArJM8DE5FI="
+    "integrity": "sha256-7nQcsKH7KUDbxJXJQf8Pg0H6IFIMqgB+el0pljJbHfA="
   },
   "flavours/glitch/async/modals/interaction_modal.js.map": {
     "src": "/packs/js/flavours/glitch/async/modals/interaction_modal.js.map",
@@ -4885,7 +4939,7 @@
   },
   "flavours/glitch/async/modals/subscribed_languages_modal.js": {
     "src": "/packs/js/flavours/glitch/async/modals/subscribed_languages_modal.js",
-    "integrity": "sha256-d2u1sWiFi119c87CbzV8zlO2O6HNf5zhzzQXNb3OHtM="
+    "integrity": "sha256-EzU174afb4qNzUdOyDv005Yy2gfTIx0DHxxOGE0nats="
   },
   "flavours/glitch/async/modals/subscribed_languages_modal.js.map": {
     "src": "/packs/js/flavours/glitch/async/modals/subscribed_languages_modal.js.map",
@@ -4901,7 +4955,7 @@
   },
   "flavours/glitch/async/mutes.js": {
     "src": "/packs/js/flavours/glitch/async/mutes.js",
-    "integrity": "sha256-qxsvzqZdWp8gpIM8LYOib6wPjhqB3MczbSKwPF2mm3E="
+    "integrity": "sha256-Sl7Oqxvjh8XeodzN7gctTfkOtRmwJCHf8gfXT9Uqlb4="
   },
   "flavours/glitch/async/mutes.js.map": {
     "src": "/packs/js/flavours/glitch/async/mutes.js.map",
@@ -4909,7 +4963,7 @@
   },
   "flavours/glitch/async/notifications.js": {
     "src": "/packs/js/flavours/glitch/async/notifications.js",
-    "integrity": "sha256-Wnqt/1OT4ii7TFQ+Wi4K6OmSWOnZstiJ9IcJrjzuoTk="
+    "integrity": "sha256-T6b6r2aTOScAYKMq7OItnhTBA+Nldzu6RniewbRXgxM="
   },
   "flavours/glitch/async/notifications.js.map": {
     "src": "/packs/js/flavours/glitch/async/notifications.js.map",
@@ -4925,7 +4979,7 @@
   },
   "flavours/glitch/async/pinned_accounts_editor.js": {
     "src": "/packs/js/flavours/glitch/async/pinned_accounts_editor.js",
-    "integrity": "sha256-SVdL2fRyI7iah3MYz0YqH+J4aLZhXFGZa+GiEPVkjeQ="
+    "integrity": "sha256-n6ekdB4Kzi4Y61UCIJl8gyZBy3v1tsAM4sWT/kW0/HE="
   },
   "flavours/glitch/async/pinned_accounts_editor.js.map": {
     "src": "/packs/js/flavours/glitch/async/pinned_accounts_editor.js.map",
@@ -4933,7 +4987,7 @@
   },
   "flavours/glitch/async/pinned_statuses.js": {
     "src": "/packs/js/flavours/glitch/async/pinned_statuses.js",
-    "integrity": "sha256-V1mCvR+LY/Ux4dmxQPz5HXpwWX79oY+zkZPePrSmetE="
+    "integrity": "sha256-I3dtV/3ynqcRRAANAWi+8R+j+/rLmZV7EdFuXxbNYLU="
   },
   "flavours/glitch/async/pinned_statuses.js.map": {
     "src": "/packs/js/flavours/glitch/async/pinned_statuses.js.map",
@@ -4941,7 +4995,7 @@
   },
   "flavours/glitch/async/public_timeline.js": {
     "src": "/packs/js/flavours/glitch/async/public_timeline.js",
-    "integrity": "sha256-I249MIw/90kQrki5zDura5IgPs65RCjCfL8J8TYtvkk="
+    "integrity": "sha256-aUYDwL9U4rwylYT4DpPiDgTT9b6sTr992vk1ArHVfLQ="
   },
   "flavours/glitch/async/public_timeline.js.map": {
     "src": "/packs/js/flavours/glitch/async/public_timeline.js.map",
@@ -4949,7 +5003,7 @@
   },
   "flavours/glitch/async/reblogs.js": {
     "src": "/packs/js/flavours/glitch/async/reblogs.js",
-    "integrity": "sha256-UBkXjeSkEWY7gCLkxW/r0RiVQ5Kp6X4itQrlXzURT3E="
+    "integrity": "sha256-Rk1H1t+fwZluwNhZ5gJpKbngeUlM+3sgiJKsQXczVuA="
   },
   "flavours/glitch/async/reblogs.js.map": {
     "src": "/packs/js/flavours/glitch/async/reblogs.js.map",
@@ -4957,7 +5011,7 @@
   },
   "flavours/glitch/async/report_modal.js": {
     "src": "/packs/js/flavours/glitch/async/report_modal.js",
-    "integrity": "sha256-IrBRAPUuaBTzkhu2f87vbPYmJF1wA2uA/B+JTEmEXWE="
+    "integrity": "sha256-6DjBiwCKJ6lShZ3CX6bcYzdF0838MUfp2BtjqvMHAhg="
   },
   "flavours/glitch/async/report_modal.js.map": {
     "src": "/packs/js/flavours/glitch/async/report_modal.js.map",
@@ -4965,15 +5019,15 @@
   },
   "flavours/glitch/async/settings_modal.js": {
     "src": "/packs/js/flavours/glitch/async/settings_modal.js",
-    "integrity": "sha256-b8dZVnUSur3h1mtPSSXSE8eIU+ry9iTyPLEzo9UorEI="
+    "integrity": "sha256-aFHCQ0oEqgvieDKN2BT73gjeN115Zn8L70LPiYx6zDs="
   },
   "flavours/glitch/async/settings_modal.js.map": {
     "src": "/packs/js/flavours/glitch/async/settings_modal.js.map",
-    "integrity": "sha256-gsoy1LMVfBle2k2afRjFHfdnfVfW3wKA5ufU2/vTBNo="
+    "integrity": "sha256-wg9WOnefEnPYDR/ZToHT0QCK2/51XF1yJ9qiKOrCens="
   },
   "flavours/glitch/async/status.js": {
     "src": "/packs/js/flavours/glitch/async/status.js",
-    "integrity": "sha256-rvOqBF3M6ETqn6D3pRIiaJ4yBwu6Hzker6twMHOP+FQ="
+    "integrity": "sha256-HI6hsksf+BOdryNSto9u/nEOcrMd50WMyLbhtPlN9Vw="
   },
   "flavours/glitch/async/status.js.map": {
     "src": "/packs/js/flavours/glitch/async/status.js.map",
@@ -4981,7 +5035,7 @@
   },
   "flavours/glitch/auth.js": {
     "src": "/packs/js/flavours/glitch/auth.js",
-    "integrity": "sha256-Zje8rOAy5bTsy7A9yeQQaq0bT1HKK4FWLNWGlfaCu84="
+    "integrity": "sha256-Kac2NmZb6gZ2BE1p5fAtJ0zG9ngZq+vtMyYRL9cHxDQ="
   },
   "flavours/glitch/auth.js.map": {
     "src": "/packs/js/flavours/glitch/auth.js.map",
@@ -4997,7 +5051,7 @@
   },
   "flavours/glitch/common.js": {
     "src": "/packs/js/flavours/glitch/common.js",
-    "integrity": "sha256-acBdjG/MF4KkLr4yshoFNk+YlpsjcxKHYHhUNcf27p0="
+    "integrity": "sha256-7fuzC6VevGAcOVmzbDRuo1a4Dsnt52IutLESRAKJ/K8="
   },
   "flavours/glitch/common.js.map": {
     "src": "/packs/js/flavours/glitch/common.js.map",
@@ -5005,7 +5059,7 @@
   },
   "flavours/glitch/embed.js": {
     "src": "/packs/js/flavours/glitch/embed.js",
-    "integrity": "sha256-IaroHALIrKYkR41pgOQc/4accXabkT+sdqz+DS9Z5vo="
+    "integrity": "sha256-dKV7GWK2l7CxPFIq29QDyfBAQMahOeUhsOqxO7cKFSA="
   },
   "flavours/glitch/embed.js.map": {
     "src": "/packs/js/flavours/glitch/embed.js.map",
@@ -5021,15 +5075,15 @@
   },
   "flavours/glitch/home.js": {
     "src": "/packs/js/flavours/glitch/home.js",
-    "integrity": "sha256-Gyghtg7J5O2NGPMhlM27/hea15E5yYroLIX4dqf0VUg="
+    "integrity": "sha256-9X1R5rFp3mNOmsvHhPcMCV8/5oVe10wYnM3EFzrEXTg="
   },
   "flavours/glitch/home.js.map": {
     "src": "/packs/js/flavours/glitch/home.js.map",
-    "integrity": "sha256-XuwcEC+ec0zQ8yw0TSTmlOAozBpR5c1znLL4p7QpPrA="
+    "integrity": "sha256-S72irbyRHn8ED1kpym90nTYTHptLRCSp9WcuEHPkKeo="
   },
   "flavours/glitch/public.js": {
     "src": "/packs/js/flavours/glitch/public.js",
-    "integrity": "sha256-7MZUzMNT2XBb/pdPacoRL/mHQThSN18Rff7w4drb3wI="
+    "integrity": "sha256-O5AShkbv54Zaew8xR4pu+f6HHZJCG+CWurJzchvzKVw="
   },
   "flavours/glitch/public.js.map": {
     "src": "/packs/js/flavours/glitch/public.js.map",
@@ -5037,7 +5091,7 @@
   },
   "flavours/glitch/settings.js": {
     "src": "/packs/js/flavours/glitch/settings.js",
-    "integrity": "sha256-Vh19g9Kzam2OVVVj6DAyUVoStcAMPtp3x1N131yYJr4="
+    "integrity": "sha256-buFa8IbeQ+6vtZM6+jGCtR9ZiCyiNqYRvz2Yfitah0s="
   },
   "flavours/glitch/settings.js.map": {
     "src": "/packs/js/flavours/glitch/settings.js.map",
@@ -5045,11 +5099,11 @@
   },
   "flavours/glitch/share.js": {
     "src": "/packs/js/flavours/glitch/share.js",
-    "integrity": "sha256-BZwe5Ofq0+tnQ9ykKnma9n4xqwR7BGTC62guKdoXMNU="
+    "integrity": "sha256-0vlnl+Z56cV+4txJSXjhVZvdj+fBgIt4eiCd1WQunzI="
   },
   "flavours/glitch/share.js.map": {
     "src": "/packs/js/flavours/glitch/share.js.map",
-    "integrity": "sha256-DRZ628fbhDWc3Ukdz6AurnrwTUlheyoCdpHeEVNgGmo="
+    "integrity": "sha256-/67HNxaYcuRF33JZWSpZqGhaSqxqzgHfWgLj6SAZ29A="
   },
   "flavours/glitch/sign_up.js": {
     "src": "/packs/js/flavours/glitch/sign_up.js",
@@ -5069,7 +5123,7 @@
   },
   "flavours/vanilla/admin.js": {
     "src": "/packs/js/flavours/vanilla/admin.js",
-    "integrity": "sha256-zCDWNakFzPlpwdNFZ4hHlGxm0bAChuoIBnUC98W6FgY="
+    "integrity": "sha256-HHoa/J72nQgaKH9PdVsESsPHk9Sn5p3teGFUKAQGmAI="
   },
   "flavours/vanilla/admin.js.map": {
     "src": "/packs/js/flavours/vanilla/admin.js.map",
@@ -5085,7 +5139,7 @@
   },
   "flavours/vanilla/auth.js": {
     "src": "/packs/js/flavours/vanilla/auth.js",
-    "integrity": "sha256-BesJsNCXgKiiaGd9OxwIZfcW+mqxSMT+o6cAZ0ut2/0="
+    "integrity": "sha256-1wVRgFuoUekLnjRR4q4l1JFIfqVzzCHip/7v6bbWe7s="
   },
   "flavours/vanilla/auth.js.map": {
     "src": "/packs/js/flavours/vanilla/auth.js.map",
@@ -5101,7 +5155,7 @@
   },
   "flavours/vanilla/common.js": {
     "src": "/packs/js/flavours/vanilla/common.js",
-    "integrity": "sha256-m/vwVH4y672bP7MAEYA52k0u9i4f8zby6BAPlCqG9dE="
+    "integrity": "sha256-r6oCgVYxNdRqViGWfeokGgY1JJnNVJNL89Cg5CiWVZI="
   },
   "flavours/vanilla/common.js.map": {
     "src": "/packs/js/flavours/vanilla/common.js.map",
@@ -5117,7 +5171,7 @@
   },
   "flavours/vanilla/embed.js": {
     "src": "/packs/js/flavours/vanilla/embed.js",
-    "integrity": "sha256-PoyWqZnlUsM1/SkyQSUfa5n79B9IczxJDr6U+Fa4TXg="
+    "integrity": "sha256-tk6N7LCsIsEHl7MdJ5Ch6YbcuTuSkh3BiA4WYNjh3Co="
   },
   "flavours/vanilla/embed.js.map": {
     "src": "/packs/js/flavours/vanilla/embed.js.map",
@@ -5141,11 +5195,11 @@
   },
   "flavours/vanilla/home.js": {
     "src": "/packs/js/flavours/vanilla/home.js",
-    "integrity": "sha256-s5Wj/UDZIIyq69NC2fgyids5ZJJ/b7pT6I3yugHF2cI="
+    "integrity": "sha256-4GOGEzyLwfhwnISQoBwsddcfJ3O1rxVabHMiAMdMgpE="
   },
   "flavours/vanilla/home.js.map": {
     "src": "/packs/js/flavours/vanilla/home.js.map",
-    "integrity": "sha256-1KXIRGx0Dlgm75E8yJopgJCAb7U17i0G9FQTJwvYkUY="
+    "integrity": "sha256-pMZUpxtNatR0l8ozJ/xg0K4SVhc2Ofj1xV3KZhrx2mg="
   },
   "flavours/vanilla/public.css": {
     "src": "/packs/css/flavours/vanilla/public.css",
@@ -5157,7 +5211,7 @@
   },
   "flavours/vanilla/public.js": {
     "src": "/packs/js/flavours/vanilla/public.js",
-    "integrity": "sha256-5wMsW7KIibCD5+ZhINKXr5jxw/v+FISjWfUi2ZmtLZE="
+    "integrity": "sha256-AJhEweGLfT7ARnn1DqKOW5TI54foBN8tkwwk89qgtGU="
   },
   "flavours/vanilla/public.js.map": {
     "src": "/packs/js/flavours/vanilla/public.js.map",
@@ -5173,7 +5227,7 @@
   },
   "flavours/vanilla/settings.js": {
     "src": "/packs/js/flavours/vanilla/settings.js",
-    "integrity": "sha256-wh/kdBmyDvnM87NGm/5skOYlC2IOwI4v8h+xLqNQq4U="
+    "integrity": "sha256-1wc22ksYp9lQ+qR49uofkBiAXD20f9JbDluQI27vY3s="
   },
   "flavours/vanilla/settings.js.map": {
     "src": "/packs/js/flavours/vanilla/settings.js.map",
@@ -5189,11 +5243,11 @@
   },
   "flavours/vanilla/share.js": {
     "src": "/packs/js/flavours/vanilla/share.js",
-    "integrity": "sha256-oJM4jgoMFYwSnHgTgC39M9+YTj0Hp7lOkDnPf2nrIGo="
+    "integrity": "sha256-ltFkCprhM9D3mL3dil9w+lWQ9Ya+nHEByLICmvaW5sg="
   },
   "flavours/vanilla/share.js.map": {
     "src": "/packs/js/flavours/vanilla/share.js.map",
-    "integrity": "sha256-goYtzGwJkfRafnRkUqL0F+Nen/AqqJvymYomQdhUuBc="
+    "integrity": "sha256-01IYzgFvdZAkJChHEdvZ16Qqf0PvJQ9Glio82yq4Lw8="
   },
   "flavours/vanilla/sign_up.js": {
     "src": "/packs/js/flavours/vanilla/sign_up.js",
@@ -8645,7 +8699,7 @@
   },
   "i18n-pluralrules-polyfill.js": {
     "src": "/packs/js/i18n-pluralrules-polyfill.js",
-    "integrity": "sha256-Y7yfbDRcH1ZXz+/sZrUSrl0g1SQY2Y4CplSloKl7a8A="
+    "integrity": "sha256-5zKvVygiD7AgstTk5McLp3GeXCGmJZcGUpnLsNG+SiQ="
   },
   "i18n-pluralrules-polyfill.js.map": {
     "src": "/packs/js/i18n-pluralrules-polyfill.js.map",
@@ -8653,7 +8707,7 @@
   },
   "js/431.js": {
     "src": "/packs/js/431.js",
-    "integrity": "sha256-IWkmfcQTXsQMlHXq24UMTnpypS9cHJGuWp+gw9RN8z8="
+    "integrity": "sha256-7yUqczP2PMLCgcO26rNUWQq3UCZ83oJH/+fc1JrcqXQ="
   },
   "js/431.js.map": {
     "src": "/packs/js/431.js.map",
@@ -8755,21 +8809,21 @@
     "src": "/packs/js/443.js.map",
     "integrity": "sha256-2XZiUlX/JyJn3MQCzn7DpyRfwuqufdOSE7Gk6/CjgBw="
   },
-  "js/765.js": {
-    "src": "/packs/js/765.js",
-    "integrity": "sha256-NUQ/cRsCewwSwOsaWX3q8HWXXcqqyQAA9eh4/TJ3mGs="
+  "js/768.js": {
+    "src": "/packs/js/768.js",
+    "integrity": "sha256-se7QgHvx6sGnM2xU0n0daWMGUBRefKcjETeHChO6Pb8="
   },
-  "js/765.js.map": {
-    "src": "/packs/js/765.js.map",
-    "integrity": "sha256-Zqox5GCmdZCzXY9e5hls6sY6q/Qwv+yLDnNGIlVo+08="
+  "js/768.js.map": {
+    "src": "/packs/js/768.js.map",
+    "integrity": "sha256-oEP0+MGu0AtgPiWYDyUnfz7rEkRZTPYeQT/rJSPkzWE="
   },
-  "js/766.js": {
-    "src": "/packs/js/766.js",
-    "integrity": "sha256-oSrVYyTjr5G5AlKl0HwcmBunMLpu3AxqwkQVdrRLWmw="
+  "js/769.js": {
+    "src": "/packs/js/769.js",
+    "integrity": "sha256-mJqYFAOEvreGEctZKQZZPzeh63vQ381MN6XiMXo/7tM="
   },
-  "js/766.js.map": {
-    "src": "/packs/js/766.js.map",
-    "integrity": "sha256-INvb9FM9ucoZiAkRxVI0pmieLa7XmkxHdGZLSH8sK5o="
+  "js/769.js.map": {
+    "src": "/packs/js/769.js.map",
+    "integrity": "sha256-FmHUcnkdFLdW0nm+YIZZlt+mF7wbxTYmkoa/Ax98ib8="
   },
   "js/common.js.LICENSE.txt": {
     "src": "/packs/js/common.js.LICENSE.txt",
@@ -10873,7 +10927,7 @@
   },
   "modals/compare_history_modal.js": {
     "src": "/packs/js/modals/compare_history_modal.js",
-    "integrity": "sha256-qlZ2Q0U9D8RworhD8cNw3anBQ5CLgsUVIQOUGVn7hXc="
+    "integrity": "sha256-FvPM/cozUSz/oRGFiR3YT6bFFw0b21H59DRtKWe9abM="
   },
   "modals/compare_history_modal.js.map": {
     "src": "/packs/js/modals/compare_history_modal.js.map",
@@ -10897,7 +10951,7 @@
   },
   "modals/interaction_modal.js": {
     "src": "/packs/js/modals/interaction_modal.js",
-    "integrity": "sha256-SN9b//cS7IJDbzWZ0MMtb75r/YWronNi77UqFG5P7hU="
+    "integrity": "sha256-K9/xd2sJyJ91eBm0HuL2oGqag0EGimodBaB+0hTslBc="
   },
   "modals/interaction_modal.js.map": {
     "src": "/packs/js/modals/interaction_modal.js.map",
@@ -10913,7 +10967,7 @@
   },
   "modals/report_modal.js": {
     "src": "/packs/js/modals/report_modal.js",
-    "integrity": "sha256-lFOzerqlAGXS7ovKDS3IFezqSxipXO+TK41KHMGein8="
+    "integrity": "sha256-CARVU+K1f+vEpQ6WSq4J3Ob8V6O2k9iyt/PGjR0Wkcg="
   },
   "modals/report_modal.js.map": {
     "src": "/packs/js/modals/report_modal.js.map",
@@ -10921,7 +10975,7 @@
   },
   "modals/subscribed_languages_modal.js": {
     "src": "/packs/js/modals/subscribed_languages_modal.js",
-    "integrity": "sha256-9057hlLvxmm0z5TNX8VqU2hmmMYsJJze/9/FddNZMNA="
+    "integrity": "sha256-mZISi45npwYF/F7u/akox+f/zJehxo43QD2kW/zwezk="
   },
   "modals/subscribed_languages_modal.js.map": {
     "src": "/packs/js/modals/subscribed_languages_modal.js.map",
@@ -10949,7 +11003,7 @@
   },
   "skins/glitch/contrast/common.js": {
     "src": "/packs/js/skins/glitch/contrast/common.js",
-    "integrity": "sha256-t3rkm60mbkcoKgZffftZQZoWA57NZE3sybMMI3Bz/nY="
+    "integrity": "sha256-T89Xa6MID39iDZn9dt8ynwv9qjuEGKszHjSdtE/1qAk="
   },
   "skins/glitch/contrast/common.js.map": {
     "src": "/packs/js/skins/glitch/contrast/common.js.map",
@@ -10965,11 +11019,59 @@
   },
   "skins/glitch/mastodon-light/common.js": {
     "src": "/packs/js/skins/glitch/mastodon-light/common.js",
-    "integrity": "sha256-62fnIqVMxAHM45CNUiyzo4TyYAMI7vls1Lr8orvUN2E="
+    "integrity": "sha256-blD1S+yr2VJMw+oHmEPfBT8s2SBfG2sc8YVN8KgGOco="
   },
   "skins/glitch/mastodon-light/common.js.map": {
     "src": "/packs/js/skins/glitch/mastodon-light/common.js.map",
     "integrity": "sha256-9GsXQSq7WuHtNimV5CZAcnhcdngWqUtTaBZVI8HQQjY="
+  },
+  "skins/glitch/swipe/contrast.css": {
+    "src": "/packs/css/skins/glitch/swipe/contrast.css",
+    "integrity": "sha256-RrWLc3OxeRcoebsS1P3WnAo0FkcAGYgY259AzXxkaTg="
+  },
+  "skins/glitch/swipe/contrast.css.map": {
+    "src": "/packs/css/skins/glitch/swipe/contrast.css.map",
+    "integrity": "sha256-skugDKXxWmjI8Yr1fU43I4yLGeO1/6hWiL0lybeOnOc="
+  },
+  "skins/glitch/swipe/contrast.js": {
+    "src": "/packs/js/skins/glitch/swipe/contrast.js",
+    "integrity": "sha256-ZzjH03jlLaeXp7kw6Db/UVUyn7VuICQWvZ0yIILoQS8="
+  },
+  "skins/glitch/swipe/contrast.js.map": {
+    "src": "/packs/js/skins/glitch/swipe/contrast.js.map",
+    "integrity": "sha256-tHpypM+KM3m7AuJv65ZS2ExFog/MNlRioZW7aZXq1CQ="
+  },
+  "skins/glitch/swipe/dark.css": {
+    "src": "/packs/css/skins/glitch/swipe/dark.css",
+    "integrity": "sha256-HsbtHWel9Q1KPC7ojKH6koqaWpMrz6VtLsa1DV7mZ3k="
+  },
+  "skins/glitch/swipe/dark.css.map": {
+    "src": "/packs/css/skins/glitch/swipe/dark.css.map",
+    "integrity": "sha256-RxSIZ29SK5skk3xWV59hrM/noNLw0BzkzHkP8IRtgxM="
+  },
+  "skins/glitch/swipe/dark.js": {
+    "src": "/packs/js/skins/glitch/swipe/dark.js",
+    "integrity": "sha256-50zWsYY8XNixAeYcoGucxPDXxJOphz5dbaw5CyYeBaE="
+  },
+  "skins/glitch/swipe/dark.js.map": {
+    "src": "/packs/js/skins/glitch/swipe/dark.js.map",
+    "integrity": "sha256-sKHWvZUWGF+KLXej/V6kNGDSxGDYIyhXgI6n3Q5UYeU="
+  },
+  "skins/glitch/swipe/light.css": {
+    "src": "/packs/css/skins/glitch/swipe/light.css",
+    "integrity": "sha256-JWNvP7XRbiWAVLaVTqTWK7dRNknLME0wUtdhdeN2DuI="
+  },
+  "skins/glitch/swipe/light.css.map": {
+    "src": "/packs/css/skins/glitch/swipe/light.css.map",
+    "integrity": "sha256-1F8jgdHIGpXSdY1kzltHWdFuGPu3ex/QKfZ8LnAeDRo="
+  },
+  "skins/glitch/swipe/light.js": {
+    "src": "/packs/js/skins/glitch/swipe/light.js",
+    "integrity": "sha256-/0bSYyi5yTXtichiMS4QRKLvd1pB7Eyw0sNT/n9t6/c="
+  },
+  "skins/glitch/swipe/light.js.map": {
+    "src": "/packs/js/skins/glitch/swipe/light.js.map",
+    "integrity": "sha256-BMAiKSdOyS4GBsOvxaZ6Sp2Ww4Dgd8V8sFvhL1I3zkM="
   },
   "skins/vanilla/contrast/common.css": {
     "src": "/packs/css/skins/vanilla/contrast/common.css",
@@ -10981,7 +11083,7 @@
   },
   "skins/vanilla/contrast/common.js": {
     "src": "/packs/js/skins/vanilla/contrast/common.js",
-    "integrity": "sha256-Zn8rQxiFqVFlxFeykiTcIkbxBdAzBEhdtB6m6ALe+AM="
+    "integrity": "sha256-5dhSvOjAktBC+QmqFksDGu+zhig/PrRzIVMOggwwfL4="
   },
   "skins/vanilla/contrast/common.js.map": {
     "src": "/packs/js/skins/vanilla/contrast/common.js.map",
@@ -10997,7 +11099,7 @@
   },
   "skins/vanilla/mastodon-light/common.js": {
     "src": "/packs/js/skins/vanilla/mastodon-light/common.js",
-    "integrity": "sha256-rIteWLz69vTLFHAxijv2fp88tdW5y0YS7Mz5cCki+rA="
+    "integrity": "sha256-UltZRySnR3BBkT90EeF+XY0Cvn3Jw/IQ99/T+8dD7uA="
   },
   "skins/vanilla/mastodon-light/common.js.map": {
     "src": "/packs/js/skins/vanilla/mastodon-light/common.js.map",
@@ -11013,7 +11115,7 @@
   },
   "skins/vanilla/win95/common.js": {
     "src": "/packs/js/skins/vanilla/win95/common.js",
-    "integrity": "sha256-jrM2gt8C77kL3nGaM7gJgq0QA9leu0Eys7WyhRhGZ3E="
+    "integrity": "sha256-elT5stcOpGp+DsC3iUCXCzC44kEi//+MR/xW0K0T/sE="
   },
   "skins/vanilla/win95/common.js.map": {
     "src": "/packs/js/skins/vanilla/win95/common.js.map",
@@ -11029,7 +11131,7 @@
   },
   "tesseract.js": {
     "src": "/packs/js/tesseract.js",
-    "integrity": "sha256-NQvyc5+0IbxFjNtZv2piMzxPR2uVlbeKuoJZJ94HLLU="
+    "integrity": "sha256-pgKh04n53ES1K4PHwloME0drrrKd7ZJ7BC6A2rTnWfQ="
   },
   "tesseract.js.map": {
     "src": "/packs/js/tesseract.js.map",
